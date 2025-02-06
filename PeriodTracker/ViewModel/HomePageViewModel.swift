@@ -11,6 +11,15 @@ class HomePageViewModel: ObservableObject {
     @Published var homePageModel: HomePageModel
     @Published var isAnimation: Bool = false
 
+    // Bugün itibariyle döngüdeki günün hesaplanması
+    var currentDay: Int {
+        let today = Date()
+        let calendar = Calendar.current
+        let daysBetween = calendar.dateComponents([.day], from: homePageModel.firstPeriodDate, to: today).day ?? 0
+        let cycleDay = (daysBetween % homePageModel.cycleLength) + 1 // Döngü uzunluğu ile mod alıyoruz
+        return cycleDay
+    }
+    
     init(homePageModel: HomePageModel) {
         self.homePageModel = homePageModel
     }
@@ -32,4 +41,5 @@ class HomePageViewModel: ObservableObject {
             isAnimation = true
         }
     }
+    
 }

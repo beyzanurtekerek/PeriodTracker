@@ -6,6 +6,7 @@ struct HomePageView: View {
     var firstName: String
     @ObservedObject var viewModel: HomePageViewModel
 
+    
     // MARK: - Views
     var body: some View {
         GeometryReader { geometry in
@@ -29,8 +30,8 @@ struct HomePageView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 25)
                     .padding(.top, 30)
-                    
-                    Spacer(minLength: geometry.size.height * 0.08)
+                                        
+                    Spacer(minLength: geometry.size.height * 0.03)
                     
                     // Çember (regl ve ovulasyon göstermek için)
                     ZStack {
@@ -72,6 +73,7 @@ struct HomePageView: View {
                             )
                             .rotationEffect(.degrees(-89))
                             .animation(.easeInOut(duration: 1), value: viewModel.isAnimation)
+
                         
                         VStack {
                             VStack {
@@ -111,8 +113,15 @@ struct HomePageView: View {
                         viewModel.startAnimation()
                     }
                     
+                    Text("\(viewModel.currentDay). gün")
+                        .font(.system(size: 22, weight: .bold))
+                        .foregroundColor(.green)
+                        .padding(.bottom, 10)
+                        .padding(.leading, 25)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
                     // "Sizin Döngünüz" Başlığı
-                    Text("Sizin Döngünüz")
+                    Text("Döngünüz")
                         .font(.title2)
                         .fontWeight(.semibold)
                         .frame(maxWidth: .infinity, alignment: .leading)
@@ -167,6 +176,7 @@ struct HomePageView: View {
                 .background(Color.white)
                 .ignoresSafeArea(edges: .all)
             }
+            
         }
     }
 }
