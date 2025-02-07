@@ -34,7 +34,7 @@ struct MainTabView: View {
                 }
                 .tag(1)
             
-            SettingsView()
+            SettingsView(settingsViewModel: SettingsViewModel())
                 .tabItem {
                     Image(selectedTab == 2 ? "settingsSelectedIcon" : "settingsIcon")
                         .resizable()
