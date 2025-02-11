@@ -7,7 +7,7 @@
 <h2 align="center">🚀 Özellikler</h2>
 
 <ul>
-  <li>📅 Menstrual Döngü Takibi: Kullanıcıların regl tarihlerini kaydetmelerini ve sonraki regl gününü tahmin etmelerini sağlar.</li>
+  <li>📅 Menstrual Döngü Takibi: Kullanıcıların regl tarihlerini kaydedebilmeleri ve sonraki regl gününü tahmin edebilme imkanı.</li>
   <li>🔐 Güvenli Giriş: Firebase Authentication ile e-posta ile giriş imkanı.</li>
   <li>🎨 Özel Tasarım: Pastel tonlarda şık bir arayüz, gradient ve blur efektleri.</li>
   <li>📊 İstatistikler: Geçmiş döngüler ve tahmini gelecek döngülerin takvimsel görünümü.</li>
