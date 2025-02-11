@@ -45,3 +45,4 @@
   <li><strong>Ayarlar:</strong> Ana sayfada adınızın göründüğü kısmı güncelleyebilir, kişisel bilgilerinizi düzenleyebilirsiniz.</li>
   <li><strong>Çıkış:</strong> Uygulamadan çıkış yapmak için ayarlar sekmesini kullanabilirsiniz.</li>
 </ul>
+<em>Bu proje, yeni teknolojiler öğrenmek ve becerilerimi geliştirmek amacıyla oluşturuldu.</em>
