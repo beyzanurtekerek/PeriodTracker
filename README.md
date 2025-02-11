@@ -10,8 +10,8 @@
   <li>📅 Menstrual Döngü Takibi: Kullanıcıların regl tarihlerini kaydetmelerini ve sonraki regl gününü tahmin etmelerini sağlar.</li>
   <li>🔐 Güvenli Giriş: Firebase Authentication ile e-posta ile giriş imkanı.</li>
   <li>🎨 Özel Tasarım: Pastel tonlarda şık bir arayüz, gradient ve blur efektleri.</li>
-  <li>📊 İstatistikler & Takvim: Geçmiş döngüler ve tahmini gelecek döngülerin takvim görünümü.</li>
-  <li>⚙️ Kişiselleştirme: Tema ve kullanıcı bilgilerini güncelleme imkanı.</li>
+  <li>📊 İstatistikler: Geçmiş döngüler ve tahmini gelecek döngülerin takvimsel görünümü.</li>
+  <li>⚙️ Kişiselleştirme: Kullanıcı bilgilerini güncelleme imkanı.</li>
 </ul>
 
 <h2 align="center">🛠️ Kullanılan Teknolojiler</h2>
